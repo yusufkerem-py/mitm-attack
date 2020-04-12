@@ -40,10 +40,10 @@ def get_user_input():
     options = parse_object.parse_args()[0]
 
     if not options.target_ip:
-        print("Enter Target IP")
+        print("Hedefin IP adresini Giriniz")
 
     if not options.gateway_ip:
-        print("Enter Gateway IP")
+        print("Geçiş IP Yazınız")
 
     return options
 
